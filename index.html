@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Gemma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="tetris" width="240" height="400"></canvas>
+        <div id="side-panel">
+            <div class="stat-box">
+                <h2>SCORE</h2>
+                <div id="score">0</div>
+            </div>
+            <div class="stat-box">
+                <h2>LINES</h2>
+                <div id="lines">0</div>
+            </div>
+            <div class="stat-box">
+                <h2>NEXT</h2>
+                <canvas id="next" width="120" height="120"></canvas>
+            </div>
+            <div id="game-over-msg" style="display: none; color: #ff4d4d; font-weight: bold; margin-bottom: 10px;">GAME OVER</div>
+            <button id="start-btn">START GAME</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
