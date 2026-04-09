@@ -1,5 +1,8 @@
 # 🕹️ Tetris Gemma (Browser-based)
 
+**[▶ Play!](https://hojinzs.github.io/tetris-gemma/)**
+
+
 A fully functional, browser-based Tetris game built with HTML5 Canvas, CSS3, and JavaScript. This project was developed to demonstrate the software engineering capabilities of **Gemma 4**, a large language model running in a local environment.
 
 ## ✨ Features
